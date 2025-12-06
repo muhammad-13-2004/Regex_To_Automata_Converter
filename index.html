@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regex → NFA → DFA → Minimized DFA Simulator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <span class="grad-cap">🎓</span>
+          <h1>Theory of Automata Project</h1>
+        </div>
+        <p class="subtitle">Group 7 • Semester Project 2025</p>
+      </header>
+
+      <main class="content">
+        <div class="regex-card">
+          <h2>Regular Expression:</h2>
+          <p class="regex-display">(g + ggg + gg)* mm + hg + ggh</p>
+        </div>
+
+        <div class="description">
+          <h2>Regex to Automata Converter</h2>
+          <p>
+            A powerful web-based simulator that converts any
+            <strong>Regular Expression</strong> into an
+            <strong>NFA</strong> (using Thompson's Construction), then
+            transforms it into a <strong>DFA</strong> (via Subset Construction),
+            and finally produces the <strong>Minimized DFA</strong> using Myhill
+            Nerode Theorem.
+          </p>
+          <ul class="features">
+            <li>✨ Step-by-step visualization of Thompson's Construction</li>
+            <li>🔄 Interactive NFA → DFA conversion</li>
+            <li>🗜️ DFA Minimization with clear state partitioning</li>
+            <li>🎨 Beautiful state diagrams.</li>
+          </ul>
+        </div>
+
+        <a href="AutomataConverter.html" class="cta-button">
+          <span>Launch Simulator</span>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M7 17l9.5-9.5M15 17l-1.5-1.5" />
+          </svg>
+        </a>
+
+        <div class="team">
+          <p>Made by <strong>Group 7</strong> — Theory of Computation, 2025</p>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

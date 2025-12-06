@@ -1,0 +1,164 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 40px 50px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.grad-cap {
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #fff, #e0dfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+/* Regex Card */
+.regex-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 20px 30px;
+  text-align: center;
+  margin: 30px 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.regex-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  opacity: 0.95;
+}
+
+.regex-display {
+  font-family: "Courier New", monospace;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 12px 0;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+/* Description */
+.description {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.description h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.description p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  opacity: 0.95;
+}
+
+.features {
+  list-style: none;
+  font-size: 1.1rem;
+  line-height: 2;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* CTA Button */
+.cta-button {
+  display: block;
+  width: fit-content;
+  margin: 50px auto 30px;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  padding: 16px 40px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cta-button:hover {
+  background: white;
+  color: #764ba2;
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Team */
+.team {
+  text-align: center;
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  .description h2 {
+    font-size: 1.8rem;
+  }
+  .regex-display {
+    font-size: 1.3rem;
+  }
+  .container {
+    padding: 30px 25px;
+  }
+}
