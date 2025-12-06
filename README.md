@@ -15,12 +15,6 @@
 - [Technologies Used](#-technologies-used)
 - [Project Structure](#-project-structure)
 - [How It Works](#-how-it-works)
-- [Installation & Usage](#-installation--usage)
-- [Algorithms Implemented](#-algorithms-implemented)
-- [Test Cases](#-test-cases)
-- [Screenshots](#-screenshots)
-- [Team Members](#-team-members)
-- [License](#-license)
 
 ## 🎯 Overview
 
